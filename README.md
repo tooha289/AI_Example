@@ -52,7 +52,7 @@ Predicting COVID confirmation from pre-COVID symptoms.
 ### Data source
 #### Kaggle
 * https://www.kaggle.com/datasets/hemanthhari/symptoms-and-covid-presence
-* 
+  
 ### Duration : 2023-09-01
 
 ## Car price
@@ -65,7 +65,7 @@ This example uses various machine learning models to predict used car prices.
 ### Data source
 #### Dacon
 * https://dacon.io/competitions/official/236114/data
-* 
+  
 ### Duration : 2023-09-04
 
 ## Titanic VIF
