@@ -6,6 +6,12 @@ from sklearn.preprocessing import LabelEncoder, MinMaxScaler, OneHotEncoder
 
 
 class DataFramePreprocessor(object):
+    """This class helps perform preprocessing on data frames.
+     Through this class, you can perform scaling or encoding operations on data frames.
+
+     The currently verified transformers are as follows. 
+     MinMaxScaler, StandardScaler, LabelEncoder, OneHotEncoder
+    """
     def __init__(self) -> None:
         self._logger = logging.getLogger(self.__class__.__name__)
 

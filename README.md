@@ -24,9 +24,21 @@
     - [Data source](#data-source-3)
       - [Dacon](#dacon-1)
     - [Duration : 2023-09-05](#duration--2023-09-05)
+  - [Internet subscription](#internet-subscription)
+    - [Goal](#goal-4)
+    - [File](#file-4)
+    - [Data source](#data-source-4)
+      - [Site](#site)
+    - [Duration : 2023-09-07](#duration--2023-09-07)
 
 # Introduce
 The goal is to use various AI models from various data and practice their use.
+
+# Library
+These are libraries that can be used when performing analysis.
+## [preprocessing](https://github.com/tooha289/AI_Example/blob/main/Library/preprocessing.py)
+This class helps perform preprocessing on data frames. Through this class, you can perform scaling or encoding operations on data frames.
+* The currently verified transformers are as follows. MinMaxScaler, StandardScaler, LabelEncoder, OneHotEncoder
 
 # Examples
 ## Covid_prediction 1 
@@ -80,3 +92,29 @@ This example analyzes the impact of high VIF columns on learning on Titanic data
 * https://www.kaggle.com/competitions/titanic/data?select=train.csv
 
 ### Duration : 2023-09-05
+
+## Internet subscription
+### Goal
+In this example, we predict new sign-ups based on information from new internet subscribers.
+
+### File
+* [internet_subscription.ipynb](https://github.com/tooha289/AI_Example/blob/main/internet_subscription.ipynb)
+
+### Data source
+#### Site
+* http://www-stat.wharton.upenn.edu/~waterman/Teaching/701f98/logistic/logistic.html
+
+### Duration : 2023-09-07
+
+## Internet subscription
+### Goal
+In this example, we predict new sign-ups based on information from new internet subscribers.
+
+### File
+* [internet_subscription.ipynb](https://github.com/tooha289/AI_Example/blob/main/internet_subscription.ipynb)
+
+### Data source
+#### Site
+* http://www-stat.wharton.upenn.edu/~waterman/Teaching/701f98/logistic/logistic.html
+
+### Duration : 2023-09-07
