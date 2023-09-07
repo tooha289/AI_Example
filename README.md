@@ -1,4 +1,6 @@
 - [Introduce](#introduce)
+- [Library](#library)
+  - [preprocessing](#preprocessing)
 - [Examples](#examples)
   - [Covid\_prediction 1](#covid_prediction-1)
     - [Goal](#goal)
@@ -30,6 +32,12 @@
     - [Data source](#data-source-4)
       - [Site](#site)
     - [Duration : 2023-09-07](#duration--2023-09-07)
+  - [BMI obesity prediction](#bmi-obesity-prediction)
+    - [Goal](#goal-5)
+    - [File](#file-5)
+    - [Data source](#data-source-5)
+      - [Site](#site-1)
+    - [Duration : 2023-09-07](#duration--2023-09-07-1)
 
 # Introduce
 The goal is to use various AI models from various data and practice their use.
@@ -106,15 +114,15 @@ In this example, we predict new sign-ups based on information from new internet 
 
 ### Duration : 2023-09-07
 
-## Internet subscription
+## BMI obesity prediction
 ### Goal
-In this example, we predict new sign-ups based on information from new internet subscribers.
+In this example, predicting obesity based on height and weight data.
 
 ### File
-* [internet_subscription.ipynb](https://github.com/tooha289/AI_Example/blob/main/internet_subscription.ipynb)
+* [bmi.ipynb](https://github.com/tooha289/AI_Example/blob/main/bmi.ipynb)
 
 ### Data source
 #### Site
-* http://www-stat.wharton.upenn.edu/~waterman/Teaching/701f98/logistic/logistic.html
+* https://hoony-gunputer.tistory.com/entry/%ED%85%90%EC%84%9C%ED%94%8C%EB%A1%9C%EC%9A%B0%EB%A1%9C-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%ED%95%98%EA%B8%B0bmi-%EA%B5%AC%ED%95%98%EA%B8%B0
 
 ### Duration : 2023-09-07
