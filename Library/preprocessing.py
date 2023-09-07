@@ -71,10 +71,10 @@ class DataFramePreprocessor(object):
             # Perform transformations on each column.
             for col in columns:
                 tf = deepcopy(transformer)
-                df_col = dataframe[col]
+                df_col = dataframe[col].to_numpy()
 
                 if isinstance(tf, LabelEncoder) == False:
-                    df_col = df_col.values.reshape(-1, 1)
+                    df_col = df_col.reshape(-1, 1)
 
                 if fit == True:
                     result = tf.fit_transform(df_col)
@@ -125,7 +125,11 @@ if __name__ == "__main__":
         titanic, [mms, ohe, lbl], [numeric_cols, onehot_col, label_col]
     )
 
-    df, tfs = dfp.fit_transform_multiple_transformer(titanic[:5], [mms, ohe, lbl], [numeric_cols, onehot_col, label_col])
+    df, tfs = dfp.fit_transform_multiple_transformer(
+        titanic[:5], [mms, ohe, lbl], [numeric_cols, onehot_col, label_col]
+    )
     col = [[k] for k in tfs]
     transforms = [tf for tf in tfs.values()]
-    df, tfs = dfp.fit_transform_multiple_transformer(titanic[5:10], transforms, col, fit=False)
+    df, tfs = dfp.fit_transform_multiple_transformer(
+        titanic[5:10], transforms, col, fit=False
+    )
