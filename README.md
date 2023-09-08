@@ -54,7 +54,7 @@ This class helps perform preprocessing on data frames. Through this class, you c
 Predicting COVID confirmation from pre-COVID symptoms.
 
 ### File
-* [covid.ipynb](https://github.com/tooha289/AI_Example/blob/main/covid(other_data).ipynb)
+* [covid.ipynb](https://github.com/tooha289/AI_Example/blob/main/covid.ipynb)
 
 ### Data source
 #### Kaggle
