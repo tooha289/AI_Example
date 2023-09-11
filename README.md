@@ -120,6 +120,7 @@ In this example, predicting obesity based on height and weight data.
 
 ### File
 * [bmi.ipynb](https://github.com/tooha289/AI_Example/blob/main/bmi.ipynb)
+* [bmi(keras).ipynb](https://github.com/tooha289/AI_Example/blob/main/bmi(keras).ipynb)
 
 ### Data source
 #### Site
