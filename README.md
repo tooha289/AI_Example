@@ -103,7 +103,7 @@ This example analyzes the impact of high VIF columns on learning on Titanic data
 
 ## Internet subscription
 ### Goal
-In this example, we predict new sign-ups based on information from new internet subscribers.
+In this example, I predict new sign-ups based on information from new internet subscribers.
 
 ### File
 * [internet_subscription.ipynb](https://github.com/tooha289/AI_Example/blob/main/internet_subscription.ipynb)
